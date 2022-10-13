@@ -1,0 +1,9 @@
+name: to-do application
+run-name: ${{ github.actor }} is testing out to-do
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
