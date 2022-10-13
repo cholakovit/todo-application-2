@@ -11,3 +11,4 @@ jobs:
     steps:
     - name: Setup Go environment
       uses: actions/setup-go@v3.3.0
+    - run: npm init -y
